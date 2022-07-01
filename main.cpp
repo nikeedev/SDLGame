@@ -86,10 +86,14 @@ int main() {
 
 
 
-void Update() {
-
+void Init()
+{
 }
 
-void render() {
-    
+void Update()
+{
+}
+
+void Render()
+{   
 }
