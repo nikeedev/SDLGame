@@ -1,10 +1,10 @@
 #pragma once
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include <iostream>
 #include <memory>
-#include "nikees_headers/Size.h"
-#include "nikees_headers/Vector2.h"
+#include "Size.h"
+#include "Vector2.h"
 
 class Game
 {
