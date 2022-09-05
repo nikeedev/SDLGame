@@ -87,11 +87,14 @@ void Game::loop()
 				case SDLK_DOWN:
 					box_vel->y = speed;
 					break;
+				case SDLK_ESCAPE:
+					isRunning = false;
+					break; 
 				default:
 					break;
 				}
 				break;
-
+								
 			case SDL_KEYUP:
 				switch (event.key.keysym.sym) {
 				case SDLK_LEFT:
